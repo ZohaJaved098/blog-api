@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# API Integration Project (Learning Fetch, Axios, and Next.js)
 
-## Getting Started
+This project was developed to enhance my understanding of API integration across different methods and technologies, completed during my internship at Qwerty Experts. The focus was on learning how to fetch data, manage local storage, and implement CRUD functionality in a blogging website using Next.js routing.
 
-First, run the development server:
+### Project Overview
+This is a **CRUD blogging website** where users can create, read, update, and delete blog posts. The project showcases my progression in learning API integration:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Fetch API with Local Storage**: Initially, I used the Fetch API to retrieve and manage data from a dummy REST API (JSONPlaceholder) and stored responses in Local Storage.
+2. **Axios with Local Storage**: I then improved API handling by switching to Axios, maintaining data persistence with Local Storage.
+3. **Next.js with App Routing and Axios**: Finally, I built the project as a Next.js application, implementing **Next.js App Routing** for the blogging functionality. I used Axios for API requests and set up CRUD operations to manage blog posts.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Technologies Used
+- **Fetch API**: For initial data fetching and response handling.
+- **Axios**: For enhanced API handling, with Local Storage for data persistence.
+- **Next.js**: For creating a responsive CRUD blog layout with App Routing and leveraging SSR (Server-Side Rendering).
+- **Tailwind CSS**: For minimal styling of the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Note**: This project is primarily a learning exercise to understand and implement API integration techniques, focusing on Fetch, Axios, Next.js, and CRUD functionality.
